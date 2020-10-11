@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>软件工程结队编程作业</title>
+		<style type="text/css">
+			.box1{
+				width: 62.5rem;
+				height: 62.5rem;
+				margin: 0 auto;
+				background-color: skyblue;
+			}
+			
+			{
+				margin:10;
+				padding:10;
+			}
+			.nav{
+				list-style: none;
+				background-color:blue ;
+				-webkit-dashboard-region: 62.5rem;
+				margin: 3.125rem auto;
+				overflow: hidden;
+			}
+			
+			.nav li{
+				float: left;
+				width: 50%;
+			}
+			
+			.nav a{
+				display: block;
+				width: 100%;
+				text-align: center;
+				padding: 0.3125rem 0;
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+			}
+			
+			.nav a:hover{
+				background-color: darkred;
+			}
+		</style>
+		<script type="text/javascript" src="d3.v3.min.js"></script>
+		<script type="text/javascript" src="tree.js"></script>
+		<link href="demo.css" type="text/css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<ul class="nav">
+			<li><a href=#>INPUT</a></li>
+			<li><a href=#>学术家族树</a></li>
+
+		</ul>
+		
+		<div class="bg-container"></div>
+		    <div class="flex-item1">
+		        <p id="titlename">INPUT</p>
+		    </div>
+		    <div class="flex-item2">
+		        <textarea style="background:none;border-style:none;" id="user"></textarea>
+		        </br>
+		        <button id="textbotton" onClick="chase()">INPUT</button>
+		    </div>
+		    <div class="flex-item3">
+		        <p id="show-tree">学术家族树</p>
+		    </div>
+		</div>
+
+		
+		
+		<div class="box1"></div>
+	</body>
+	
+</html>
